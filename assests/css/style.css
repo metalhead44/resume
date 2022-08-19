@@ -5,6 +5,7 @@
     line-height: 1;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
+     color: #4a37f0;
 }
   h2 {
      font-size: 24px;
@@ -15,7 +16,7 @@
   h3 {
      font-size: 22px;
      margin-top: 20px;
-     color: var(--graygradient);
+     color: #4a37f0;
  }
 h4 {
     font-family: "Raleway", sans-serif;
