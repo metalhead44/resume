@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+    <link href="https://printjs-4de6.kxcdn.com/print.min.css" rel="stylesheet">
+
+    <style>
+        .one {
+            display: flex;
+            align-items: center;
+        }
+
+        .material-icons.orange600 {
+            color: #FB8C00;
+        }
+
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #4a37f0;
+        }
+
+        h4 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: grey;
+        }
+
+        .contacts {
+            background-color: lightblue;
+        }
+
+        .rounded-background-label {
+            border-radius: 5px;
+            background: #4a37f0;
+            padding: 10px;
+            color: white;
+            margin-top: 20px;
+            padding-left: 15px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            display: inline-block;
+        }
+
+        .rounded-label {
+            border-radius: 5px;
+            background: #4a37f0;
+            border-color: black;
+            padding: 10px;
+            color: white;
+            margin-top: 20px;
+            padding-left: 15px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            display: inline-block;
+        }
+
+        .newline-statements {
+
+            padding: 10px;
+            font-weight: 500;
+            color: black;
+            padding-left: 15px;
+            padding-bottom: 15px;
+            padding-right: 10px;
+            display: inline-block;
+
+        }
+
+        .newline-statements-custom {
+
+            padding: 10px;
+            font-weight: bold;
+            color: black;
+            padding-left: 15px;
+            padding-right: 10px;
+            display: inline-block;
+
+        }
+
+        newline-statements p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .newline-statements-italics {
+            padding: 10px;
+            font-style: italic;
+            color: black;
+            display: inline-block;
+        }
+
+        .year-italics {
+            padding: 10px;
+            font-style: italic;
+            color: grey;
+
+
+        }
+
+        .year-italic-right {
+            padding: 10px;
+            font-style: italic;
+            color: grey;
+
+        }
+
+        .span-list-item {
+            display: list-item;
+            word-break: break-word;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div class="container pt-5">
+        <!--div class ="row">
+            <button id="print-button">Print HTML</button>
+        </div-->
+        <div class="row">
+            <div class="col-sm-3"><img src="assests/img/profilepic.jpg" style="width:75%;height:auto" class="float-start"></div>
+            <div class="col-sm-9">
+                <h1>Nitin Rohidas</h1>
+                <h4>Solution Architect</h4>
+                <p>Results-driven Solutions Architect with extensive 13+ years of experience in spearheading the
+                    management, design, development and testing of IT solutions. Recognized leader, applying high-impact
+                    technical solutions to major business objectives with capabilities that transcend IT operation
+                    boundaries. Demonstrated mastery in helping customers ﬁnd their way to the best solution and deliver
+                    amazing experiences and software using J2EE Technologies and Modern Technology Stack.</P>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row contacts">
+        <div class="col-sm-1"></div>
+
+        <div class="col-sm-3 one"><span style="color: blue;"><i class="fa fa-envelope fa-2x "> </i></span> &nbsp;
+            nitin.rohidas2gmail.com
+        </div>
+        <!--<div class="col-sm-4 one"><i class="material-icons oragne600">mobile</i>&nbsp; <p>8657995959</p></div>-->
+        <div class="col-sm-2 one"><span style="color: blue;"><i class="fa fa-mobile fa-3x "> </i></span>&nbsp;8657995959
+        </div>
+        <div class="col-sm-2 one"><span style="color: blue;"><i class="fa-solid fa-location-dot fa-3x "> </i></span>
+            &nbsp; <p>Pune, India</p></div>
+        <div class="col-sm-4 one"><span style="color: blue;"><i class="fa fa-linkedin fa-2x "> </i></span> &nbsp;
+            linkedin.com/in/nitin-rohidas-00408bb
+        </div>
+    </div>
+    </br>
+    <div class="row main">
+        <div class="col-sm-1 "></div>
+        <div class="col-sm-5 ">
+            <p>
+            <h3>WORK EXPERIENCE</h3></p><p>
+            <h4>Solution Architect</h4>
+            </p>
+            <h6>Principal Financial Group</h6>
+            <p class="year-italics">
+                03/2016 – Present</p>
+            <p>The Principal Financial Group is a global ﬁnancial investment management and insurance company ( Fortune
+                # 210) headquartered in Des Moines, Iowa.
+
+            </p>
+            <p class="year-italics">Achievements/Tasks</p>
+            <p>
+            <ul>
+                <li>Played an instrumental role in mentoring team of 5 Leads and upcoming architects and setting up
+                    Architecture grooming discipline.
+                </li>
+                <li>Hands on with Preparing Solution Architecture documentations covering Conceptual and Logical
+                    Architecture Diagrams, Application level design & UML documentations, Architecture Risk Assessments.
+                </li>
+                <li>Proposed multiple system re-engineering solutions to reduce the tech debt and inefficiencies in the
+                    product and process and also implemented it.
+                </li>
+                <li>Solution a complete modernization effort by transforming an internal JSF based legacy app to spring
+                    MVC and Dust application using API and Elastic Search.
+                </li>
+                <li>Leading efforts in transitioning enterprise architecture from Monolithic to Micro Service based
+                    while adopting all better DevOps practices.
+                </li>
+                <li>Providing Solutions to team of 25 people (3 teams) on their daily business features. Focus on value
+                    addition along with the usual business ask with Engineering mindset.
+                </li>
+                <li>Learning Cloud technologies like AWS – built project with trainees and demoed to senior Management
+                    which was well received
+                </li>
+            </ul>
+            </p>
+            <div>
+                <h4>
+                    System Expert/Solution Lead</h4>
+                <h6>Principal Financial Group</h6>
+                <p class="year-italics">12/2012 – 03/2016</p>
+                <p class="year-italics">Achievements/Tasks</p>
+                <p>
+                <ul>
+                    <li>Lead multiple teams while mentoring and helping them on all technical deliveries for different
+                        Web Solutions.
+                    </li>
+                    <li>Delivered numerous web products while working on different web technologies ranging from legacy
+                        XSLT, COBOL to JSF to new Spring Technology stacks.
+                    </li>
+                    <li>Designed and developed an application supporting a huge business process using IBPM and JSF.
+                        Implemented a validation framework using JSR-303 Bean Validation framework.
+                    </li>
+                    <li>Lead a COE group while establishing a culture change with practices like "clean code" covering
+                        coding standards, design patterns and performance best practices.
+                    </li>
+                    </ul>
+                        </p>
+            </div>
+
+
+            <h4>Software Engineer - Senior Software Engineer</h4>
+            <h6>HSBC Global Technology Services, Pune </h6>
+            <p class="year-italics">08/2005 – 12/2012
+            <p>
+            <p>HSBC Holdings plc is a British multinational investment bank and financial services holding company. It
+                was the 7th largest bank in the world by 2018, and the largest in Europe, with total assets of US$2.558
+                trillion</p>
+            <p class="year-italics">Achievements/Tasks</p>
+            <p>
+            <ul>
+                <li>Been an SME for the cards business (eChamps & eCafe applications) and lead multi country development
+                    and deployments – Mexico and Hongkong
+                </li>
+                <li>Provided critical UAT support for Asia pacific deployments fixing critical bugs which were in the
+                    products for years.
+                </li>
+                <li> Lead the team of 3 resources and also trained them in project technologies.</li>
+                <li> Single handedly resolve all AVA findings by doing self research and applying innovative
+                    solutions.
+                </li>
+            </ul>
+            </p>
+
+            <p>
+            <h3>EDUCATION</h3>
+            </p>
+            <h4>Bachelor of Engineering</h4>
+
+            <p>
+                Vivekanand Education Society’s Institute of Technology – Information Technology
+            </p>
+            <p>
+                <span class="year-italics">07/2001 – 06/2005 </span>
+                <span class="year-italics-right"> Mumbai, India</span>
+                <span class="year-italics-right"> Score- Distinction</span>
+            </p>
+            <p>
+                Score : Distinction
+            <p>
+
+            <h4>High School</h4>
+
+            <p>
+                V.G Vaze College
+            </p>
+            <p>
+                <span class="year-italics">06/1999 – 03/2001 </span>
+                <span class="year-italics-right"> Mumbai, India</span>
+                <span class="year-italics-right"> Score- 93 % ( PCM)</span>
+            </p>
+
+
+            <h4>SSC , Primay Schooling</h4>
+
+            <p>
+                Vani Vidyalaya
+            </p>
+            <span class="span-list-item">
+<span>06/1998 – 03/1999 </span>
+<span> Score- 80%  </span>
+<span> - Mumbai, India</span>
+
+</span>
+        </div>
+
+        <div class="col-sm-5 ">
+            <p>
+            <h3>SKILLS</h3>
+            </p>
+            <p>
+                <span class="rounded-background-label">J2EE</span>
+                <span class="rounded-background-label">Spring technology Stack</span>
+                <span class="rounded-background-label">Design Smells & Code Quality</span>
+                <span class="rounded-background-label">Design Thinking</span>
+                <span class="rounded-background-label">Cloud Computing</span>
+                <span class="rounded-background-label">Elastic Search</span>
+                <span class="rounded-background-label">Open Telemtry</span>
+                <span class="rounded-background-label">API Gateways</span>
+                <span class="rounded-background-label">Microservices</span>
+                <span class="rounded-background-label">APM</span>
+                <span class="rounded-background-label">Scaled Agile</span>
+                <span class="rounded-background-label">Technical Debt Management</span>
+                <span class="rounded-background-label">SOLID Principles</span>
+                <span class="rounded-background-label">GCP</span>
+                <span class="rounded-background-label">Kubernetes</span>
+                <span class="rounded-background-label">Cloud Native Application Development</span>
+            </p>
+
+
+            <p>
+            <h3>OVERSEAS ASSIGNMENTS</h3>
+            </p>
+            <p>
+            <ul>
+                <li>Dubai – (2006) - Developer</li>
+                <li>Canada – (2007) – Senior Developer</li>
+                <li>USA – (2008-2009) – Tech Lead</li>
+                </ul>
+                    </p>
+
+                    <p>
+                    <h3>PROFESSIONAL ACHIEVMENTS</h3>
+                    </p>
+                    <p>
+                    <ul>
+                        <li>3 Role changes in 6 years – 2 promotions</li>
+                        <li>Recognition Award – 2009</li>
+                        <li>Best project Award – 2013</li>
+                        <li>Best project Award – 2014</li>
+                        <li>ACE Performer Nomination - 2013</li>
+                        <li>Runner up – Code Jam – 2018</li>
+                    </ul>
+                    </p>
+
+
+                    <p>
+                    <h3>ORGANIZATIONS</h3>
+                    </p>
+                    <p>
+                        <span class="newline-statements">HSBC Technology Services (08/2005 – 12/2012)</span>
+
+                        <span class="newline-statements">Principal Financial Group (12/2012 – Present)</span>
+
+                    </p>
+
+                    <p>
+                    <h3>INTERESTS</h3>
+                    </p>
+                    <p>
+                        <span class="rounded-label">J2EE</span>
+                        <span class="rounded-label">Spring technology Stack</span>
+                        <span class="rounded-label">Design Smells & Code Quality</span>
+                        <span class="rounded-label">Design Thinking</span>
+                        <span class="rounded-label">Cloud Computing</span>
+                    </p>
+
+
+                    <p>
+                    <h3>CONFERENCES & TRAININGS</h3>
+                    </p>
+
+                    <span class="newline-statements-custom">NASSCOM Conclave - Micro services (11/2019)</span>
+                    <p><span class="newline-statements-italics">NASSCOM</span></p>
+
+                    <span class="newline-statements">NASSCOM Conference – Data (11/2019)</span>
+                    NASSCOM
+
+                    <span class="newline-statements">Makers Lab (11/2018)</span>
+                    TECH MAHINDRA
+
+                    <span class="newline-statements">Design Thinking Workshop (05/2018)</span>
+                    <span class="newline-statements">Design Thinking Workshop (05/2018)</span>
+
+
+                    <p>
+                    <h3>SOFT SKILLS</h3>
+                    </p>
+                    <p>
+                        <span class="rounded-background-label">Mentoring</span>
+                        <span class="rounded-background-label">Decision Making</span>
+                        <span class="rounded-background-label">Networking</span>
+                        <span class="rounded-background-label">problem Solving</span>
+                        <span class="rounded-background-label">Critical Thinking</span>
+                        <span class="rounded-background-label">Elastic Search</span>
+                        <span class="rounded-background-label">Innovation Mindset</span>
+                        <span class="rounded-background-label">Empathy</span>
+                        <span class="rounded-background-label">Negotiations</span>
+                        <span class="rounded-background-label">Self-Motivated</span>
+
+                    </p>
+
+        </div>
+        <div class="col-sm-1 "></div>
+
+
+        <div class="row ">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <p>
+                <h3>ORGANIZATION LEVEL CONTRIBUTIONS</h3>
+                </p>
+                <p>
+                <ul>
+                    <span class="newline-statements">Contributor in API Design and standards. Published an article on it.</span>
+                    <span class="newline-statements">Started Design smell initiative using AI based tools to detect Design smells and also fix them .Blogged about this in BU portal.</span>
+                    <span class="newline-statements">Active recruiter for critical positions in the organization – namely Tech Lead and Delivery Manager.</span>
+                    <span class="newline-statements">Part of the Design review group for API, system design.</span>
+                    <span class="newline-statements">	Leading effort to reduce CPU consumption by using modern design patterns like CQRS, re-design.</span>
+                    <span class="newline-statements">	Lead a POC effort on document processing Automation using OCR tools like IBPM Data cap, Tesseract, open CV.</span>
+                    <span class="newline-statements">Target Architecture prepared for same and got approval. </span>
+                    <span class="newline-statements">	Active Member and Speaker in organizational Technical Event ( IMAGINE)</span>
+
+                </ul>
+
+                </p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+    </div>
+    <script>
+        function printHTML() {
+            printJS({
+                printable: 'app',
+                type: 'html'
+            });
+        }
+
+        document.getElementById("print-button").addEventListener("click", printHTML);
+    </script>
+</div>
+</body>
+</html>
