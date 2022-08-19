@@ -11,7 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
     <link href="https://printjs-4de6.kxcdn.com/print.min.css" rel="stylesheet">
-
+    <!-- Template Main CSS File -->
+    <link href="assests/css/style.css" rel="stylesheet">
     <style>
         .one {
             display: flex;
@@ -28,40 +29,12 @@
             color: #4a37f0;
         }
 
-        h4 {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            color: grey;
-        }
 
         .contacts {
             background-color: lightblue;
         }
 
-        .rounded-background-label {
-            border-radius: 5px;
-            background: #4a37f0;
-            padding: 10px;
-            color: white;
-            margin-top: 20px;
-            padding-left: 15px;
-            padding-bottom: 10px;
-            padding-right: 10px;
-            display: inline-block;
-        }
 
-        .rounded-label {
-            border-radius: 5px;
-            background: #4a37f0;
-            border-color: black;
-            padding: 10px;
-            color: white;
-            margin-top: 20px;
-            padding-left: 15px;
-            padding-bottom: 10px;
-            padding-right: 10px;
-            display: inline-block;
-        }
 
         .newline-statements {
 
@@ -98,13 +71,6 @@
             display: inline-block;
         }
 
-        .year-italics {
-            padding: 10px;
-            font-style: italic;
-            color: grey;
-
-
-        }
 
         .year-italic-right {
             padding: 10px;
@@ -127,7 +93,8 @@
             <button id="print-button">Print HTML</button>
         </div-->
         <div class="row">
-            <div class="col-sm-3"><img src="assests/img/profilepic.jpg" style="width:75%;height:auto" class="float-start"></div>
+            <div class="col-sm-3"><img src="assests/img/profilepic.jpg" style="width:75%;height:auto"
+                                       class="float-start"></div>
             <div class="col-sm-9">
                 <h1>Nitin Rohidas</h1>
                 <h4>Solution Architect</h4>
@@ -159,20 +126,23 @@
     </br>
     <div class="row main">
         <div class="col-sm-1 "></div>
-        <div class="col-sm-5 ">
+        <div class="col-sm-5 resume-item">
             <p>
-            <h3>WORK EXPERIENCE</h3></p><p>
+            <h3>WORK EXPERIENCE</h3></p>
+            <ul>
+                <li>
             <h4>Solution Architect</h4>
             </p>
             <h6>Principal Financial Group</h6>
-            <p class="year-italics">
-                03/2016 – Present</p>
+            <h8 class="year-italics">
+                03/2016 – Present
+            </h8>
             <p>The Principal Financial Group is a global ﬁnancial investment management and insurance company ( Fortune
                 # 210) headquartered in Des Moines, Iowa.
 
             </p>
-            <p class="year-italics">Achievements/Tasks</p>
-            <p>
+            <p class="italics">Achievements/Tasks</p>
+
             <ul>
                 <li>Played an instrumental role in mentoring team of 5 Leads and upcoming architects and setting up
                     Architecture grooming discipline.
@@ -196,14 +166,22 @@
                     which was well received
                 </li>
             </ul>
-            </p>
-            <div>
+
+
+                </li>
+                <li>
+                    <p>
                 <h4>
                     System Expert/Solution Lead</h4>
-                <h6>Principal Financial Group</h6>
-                <p class="year-italics">12/2012 – 03/2016</p>
-                <p class="year-italics">Achievements/Tasks</p>
-                <p>
+                <h5>Principal Financial Group</h5>
+                <h8 class="year-italics">12/2012 – 03/2016</h8>
+                <p>The Principal Financial Group is a global ﬁnancial investment management and insurance company (
+                    Fortune
+                    # 210) headquartered in Des Moines, Iowa.
+
+                </p>
+                <p class="italics">Achievements/Tasks</p>
+
                 <ul>
                     <li>Lead multiple teams while mentoring and helping them on all technical deliveries for different
                         Web Solutions.
@@ -217,20 +195,20 @@
                     <li>Lead a COE group while establishing a culture change with practices like "clean code" covering
                         coding standards, design patterns and performance best practices.
                     </li>
-                    </ul>
-                        </p>
-            </div>
+                </ul>
+                    </p>
+            </li>
 
-
+                <li>
             <h4>Software Engineer - Senior Software Engineer</h4>
             <h6>HSBC Global Technology Services, Pune </h6>
-            <p class="year-italics">08/2005 – 12/2012
-            <p>
+            <h8 class="year-italics">08/2005 – 12/2012
+            </h8>
             <p>HSBC Holdings plc is a British multinational investment bank and financial services holding company. It
                 was the 7th largest bank in the world by 2018, and the largest in Europe, with total assets of US$2.558
                 trillion</p>
-            <p class="year-italics">Achievements/Tasks</p>
-            <p>
+            <p class="italics">Achievements/Tasks</p>
+
             <ul>
                 <li>Been an SME for the cards business (eChamps & eCafe applications) and lead multi country development
                     and deployments – Mexico and Hongkong
@@ -243,51 +221,45 @@
                     solutions.
                 </li>
             </ul>
-            </p>
 
-            <p>
+
+</li>
             <h3>EDUCATION</h3>
-            </p>
-            <h4>Bachelor of Engineering</h4>
+            <div class=""resume-item">
+            <ul>
+                <li>
+                    <h4>Bachelor of Engineering</h4>
+                    <h5>Vivekananda Education Society’s Institute of Technology – Information Technology </h5>
+                        <h8 class="year-italics">07/2001 – 06/2005 </h8>
+                        Score : <em>Distinction</em>
+                        <p>Mumbai, India</p>
+                 </li>
 
-            <p>
-                Vivekanand Education Society’s Institute of Technology – Information Technology
-            </p>
-            <p>
-                <span class="year-italics">07/2001 – 06/2005 </span>
-                <span class="year-italics-right"> Mumbai, India</span>
-                <span class="year-italics-right"> Score- Distinction</span>
-            </p>
-            <p>
-                Score : Distinction
-            <p>
+                <li>
+                    <h4>High School</h4>
+                    <h5>V.G Vaze College</h5>
 
-            <h4>High School</h4>
+                <h8 class="year-italics">06/1999 – 03/2001 </h8>
+                Score : <em>93 % ( PCM)</em>
+                <p>Mumbai, India</p>
 
-            <p>
-                V.G Vaze College
-            </p>
-            <p>
-                <span class="year-italics">06/1999 – 03/2001 </span>
-                <span class="year-italics-right"> Mumbai, India</span>
-                <span class="year-italics-right"> Score- 93 % ( PCM)</span>
-            </p>
-
+                </li>
+                <li>
 
             <h4>SSC , Primay Schooling</h4>
 
-            <p>
-                Vani Vidyalaya
-            </p>
-            <span class="span-list-item">
-<span>06/1998 – 03/1999 </span>
-<span> Score- 80%  </span>
-<span> - Mumbai, India</span>
+            <h5>Vani Vidyalaya</h5>
+            <h8 class="year-italics">06/1998 – 03/1999 </h8>
+ Score : <em>  80%  </em>
+<p> Mumbai, India</p>
 
-</span>
+</h8>
+                </li>
+            </ul>
+        </div>
         </div>
 
-        <div class="col-sm-5 ">
+        <div class="col-sm-5 resume-item">
             <p>
             <h3>SKILLS</h3>
             </p>
@@ -316,109 +288,127 @@
             </p>
             <p>
             <ul>
-                <li>Dubai – (2006) - Developer</li>
-                <li>Canada – (2007) – Senior Developer</li>
-                <li>USA – (2008-2009) – Tech Lead</li>
+                <li><h6>Dubai – (2006) - Developer</h6></li>
+                <li><h6>Canada – (2007) – Senior Developer</h6></li>
+                <li><h6>USA – (2008-2009) – Tech Lead</h6></li>
+            </ul>
+            </p>
+
+            <p>
+            <h3>PROFESSIONAL ACHIEVEMENTS</h3>
+            </p>
+            <p>
+            <ul>
+                <li><h6> Role changes in 6 years – 2 promotions</h6></li>
+            <li><h6>Recognition Award – 2009</h6></li>
+                <li><h6>Best project Award – 2013</h6></li>
+                <li><h6>Best project Award – 2014</h6></li>
+                <li><h6>ACE Performer Nomination - 2013</h6></li>
+                <li><h6>Runner up – Code Jam – 2018</h6></li>
+            </ul>
+            </p>
+
+
+            <div class="resume-item">
+                <h3>ORGANIZATIONS</h3>
+                <p>
+                <h4>HSBC Technology Services</h4>
+                <h8 class="year-italics">Aug 2005 - Dec 2012</h8>
+                <h4>Principal Financial Group</h4>
+                <h8 class="year-italics">Jan 2013 - May 2020</h8>
+                <h4>HSBC Technology Services </h4>
+                <h8 class="year-italics">June 2020 - present</h8>
+                </p>
+            </div>
+
+            <div class="resume-item">
+                <h3>INTERESTS</h3>
+
+                <p>
+                    <span class="rounded-label">J2EE</span>
+                    <span class="rounded-label">Spring technology Stack</span>
+                    <span class="rounded-label">Design Smells & Code Quality</span>
+                    <span class="rounded-label">Design Thinking</span>
+                    <span class="rounded-label">Cloud Computing</span>
+                </p>
+            </div>
+
+            <div class="resume-item">
+                <p>
+                <h3>CONFERENCES & TRAININGS</h3>
+                <ul>
+                    <li>
+                        <h4>Google Cloud Professional Architect</h4>
+                        <h8 class="year-italics">November 2021</h8>
+                        <p><em>Udemy</em></p>
+                    </li>
+                    <li>
+                        <h4>Google Kubernetes Engine</h4>
+                        <h8 class="year-italics">August 2020</h8>
+                        <p><em>Udemy</em></p>
+                    </li>
+                    <li>
+                        <h4>Conclave - Micro services</h4>
+                        <h8 class="year-italics">November 2019</h8>
+                        <p><em>NASSCOM</em></p>
+                    </li>
+                    <li>
+                        <h4>Conference: Handling Data of organization</h4>
+                        <h8 class="year-italics">November 2020</h8>
+                        <p><em>NASSCOM</em></p>
+                    </li>
+                    <li>
+                        <h4>Makers Lab: AI Chabots</h4>
+                        <h8 class="year-italics">November 2018</h8>
+                        <p><em>TECHMAHINDRA</em></p>
+                    </li>
+                    <li>
+                        <h4>Design Thinking Workshop</h4>
+                        <h8 class="year-italics">May 2018</h8>
+                        <p><em>External Training</em></p>
+                    </li>
                 </ul>
-                    </p>
-
-                    <p>
-                    <h3>PROFESSIONAL ACHIEVMENTS</h3>
-                    </p>
-                    <p>
-                    <ul>
-                        <li>3 Role changes in 6 years – 2 promotions</li>
-                        <li>Recognition Award – 2009</li>
-                        <li>Best project Award – 2013</li>
-                        <li>Best project Award – 2014</li>
-                        <li>ACE Performer Nomination - 2013</li>
-                        <li>Runner up – Code Jam – 2018</li>
-                    </ul>
-                    </p>
-
-
-                    <p>
-                    <h3>ORGANIZATIONS</h3>
-                    </p>
-                    <p>
-                        <span class="newline-statements">HSBC Technology Services (08/2005 – 12/2012)</span>
-
-                        <span class="newline-statements">Principal Financial Group (12/2012 – Present)</span>
-
-                    </p>
-
-                    <p>
-                    <h3>INTERESTS</h3>
-                    </p>
-                    <p>
-                        <span class="rounded-label">J2EE</span>
-                        <span class="rounded-label">Spring technology Stack</span>
-                        <span class="rounded-label">Design Smells & Code Quality</span>
-                        <span class="rounded-label">Design Thinking</span>
-                        <span class="rounded-label">Cloud Computing</span>
-                    </p>
-
-
-                    <p>
-                    <h3>CONFERENCES & TRAININGS</h3>
-                    </p>
-
-                    <span class="newline-statements-custom">NASSCOM Conclave - Micro services (11/2019)</span>
-                    <p><span class="newline-statements-italics">NASSCOM</span></p>
-
-                    <span class="newline-statements">NASSCOM Conference – Data (11/2019)</span>
-                    NASSCOM
-
-                    <span class="newline-statements">Makers Lab (11/2018)</span>
-                    TECH MAHINDRA
-
-                    <span class="newline-statements">Design Thinking Workshop (05/2018)</span>
-                    <span class="newline-statements">Design Thinking Workshop (05/2018)</span>
-
-
-                    <p>
-                    <h3>SOFT SKILLS</h3>
-                    </p>
-                    <p>
-                        <span class="rounded-background-label">Mentoring</span>
-                        <span class="rounded-background-label">Decision Making</span>
-                        <span class="rounded-background-label">Networking</span>
-                        <span class="rounded-background-label">problem Solving</span>
-                        <span class="rounded-background-label">Critical Thinking</span>
-                        <span class="rounded-background-label">Elastic Search</span>
-                        <span class="rounded-background-label">Innovation Mindset</span>
-                        <span class="rounded-background-label">Empathy</span>
-                        <span class="rounded-background-label">Negotiations</span>
-                        <span class="rounded-background-label">Self-Motivated</span>
-
-                    </p>
-
+                </p>
+            </div>
+            <h3>SOFT SKILLS</h3>
+            <div class="resume-item">
+                    <span class="rounded-background-label">Mentoring</span>
+                    <span class="rounded-background-label">Decision Making</span>
+                    <span class="rounded-background-label">Networking</span>
+                    <span class="rounded-background-label">problem Solving</span>
+                    <span class="rounded-background-label">Critical Thinking</span>
+                    <span class="rounded-background-label">Elastic Search</span>
+                    <span class="rounded-background-label">Innovation Mindset</span>
+                    <span class="rounded-background-label">Empathy</span>
+                    <span class="rounded-background-label">Negotiations</span>
+                    <span class="rounded-background-label">Self-Motivated</span>
+            </div>
         </div>
         <div class="col-sm-1 "></div>
 
 
         <div class="row ">
             <div class="col-sm-1"></div>
-            <div class="col-sm-10">
+            <div class="col-sm-9">
                 <p>
                 <h3>ORGANIZATION LEVEL CONTRIBUTIONS</h3>
                 </p>
                 <p>
                 <ul>
-                    <span class="newline-statements">Contributor in API Design and standards. Published an article on it.</span>
-                    <span class="newline-statements">Started Design smell initiative using AI based tools to detect Design smells and also fix them .Blogged about this in BU portal.</span>
-                    <span class="newline-statements">Active recruiter for critical positions in the organization – namely Tech Lead and Delivery Manager.</span>
-                    <span class="newline-statements">Part of the Design review group for API, system design.</span>
-                    <span class="newline-statements">	Leading effort to reduce CPU consumption by using modern design patterns like CQRS, re-design.</span>
-                    <span class="newline-statements">	Lead a POC effort on document processing Automation using OCR tools like IBPM Data cap, Tesseract, open CV.</span>
-                    <span class="newline-statements">Target Architecture prepared for same and got approval. </span>
-                    <span class="newline-statements">	Active Member and Speaker in organizational Technical Event ( IMAGINE)</span>
+                <li><h6>Active member of the API Review Board , helping with reviews of High Risk API for adherence to standards and quality measures</h6></li>
+                <li>   <h6>Driving API Governance by creating automated tools for discoverability and API catalogue, Dashboards etc.</h6></li>
+                <li>   <h6>Technical Speaker in Accelerate 2021 -Architecture symposium - presented a topic on Demystifying Containers".</h6></li>
+                <li>   <h6>Undertook Sessions on Kubernetes for the Business Unit after successful POC</h6></li>
+                <li>   <h6>	Active in recruitment of Architecture and other Senior Technical Dev Roles.</h6></li>
+                <li>   <h6>	Performed POC on document processing Automation using OCR tools like IBPM Data cap, Tesseract, open CV.</h6></li>
+
+                
 
                 </ul>
 
                 </p>
             </div>
-            <div class="col-sm-1"></div>
+            <div class="col-sm-2></div>
         </div>
 
     </div>
