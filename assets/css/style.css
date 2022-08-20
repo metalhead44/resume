@@ -1,29 +1,30 @@
- h1 {
+
+h1 {
     font-size: 48px;
     margin: 0;
     padding: 0;
     line-height: 1;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
-     color: #4a37f0;
+     color: cornflowerblue;
 }
   h2 {
      font-size: 24px;
      margin-top: 20px;
-     color: var(--graygradient);
+     color: cornflowerblue;
  }
 
   h3 {
      font-size: 22px;
      margin-top: 20px;
-     color: #4a37f0;
+     color: cornflowerblue;
  }
 h4 {
     font-family: "Raleway", sans-serif;
     font-size: 22px;
-    padding: 5px 15px;
+    padding: 0 0 5px 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color : grey
 }
 
@@ -52,7 +53,11 @@ h5 {
     margin-bottom: 10px;
     margin-left: 20px;
 }
-
+.main-column{
+    padding :10px 15px;
+    left-margin:20px;
+    border: 0px solid red;
+}
 .italics {
     font-size: 16px;
     padding: 5px 15px;
@@ -66,27 +71,26 @@ h5 {
      font-weight: 700;
      margin-top: 20px;
      margin-bottom: 20px;
-     color: #4a37f0;
+     color: cornflowerblue;
  }
  .resume-item::before {
+
      content: "";
      position: absolute;
      width: 16px;
      height: 16px;
      border-radius: 50px;
      left: -9px;
-     top: 0;
-     background: orangered;
-     border: 2px solid blue;
+     top: 10;
+     background: cornflowerblue;
+     border: 2px solid cornflowerblue;
+
  }
  .resume-item ul {
      padding-left: 20px;
      margin-left: 20px;
  }
 
- .resume-item p.ex1 {
-     margin-left: 30px;
- }
  .resume-item ul li {
      padding-bottom: 10px;
  }
@@ -94,21 +98,23 @@ h5 {
  .resume-item:last-child {
      padding-bottom: 0;
  }
- .resume-item {
-
-     margin-left: 20px;
- }
+.resume-item {
+    padding: 0px 0px 20px 20px;
+    border-left: 2px solid cornflowerblue;
+    position: relative;
+}
+.resume-item-simple {
+    padding: 0 0 20px 20px;
+    position: relative;
+}
  .blank {
      border: 1px solid black;
  }
- .main-column {
-     border: 1px solid red;
-     padding: 10px 15px 15px 10px;
- }
+
 
  .rounded-background-label {
      border-radius: 5px;
-     background: #4a37f0;
+     background: cornflowerblue;
      color: white;
      margin-top: 20px;
      padding: 10px 10px 10px 10px;
@@ -117,7 +123,7 @@ h5 {
 
  .rounded-label {
      border-radius: 5px;
-     background: #4a37f0;
+     background: cornflowerblue;
      border-color: black;
      padding: 10px;
      color: white;
