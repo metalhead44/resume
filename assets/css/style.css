@@ -53,6 +53,26 @@ h5 {
     margin-bottom: 10px;
     margin-left: 20px;
 }
+.one {
+    display: flex;
+    align-items: center;
+}
+.material-icons.orange600 {
+    color: #FB8C00;
+}
+.contacts {
+    background-color: cornflowerblue !important;
+    color:white;
+    padding : 5px 5px 5px 5px;
+}
+.container-940 {
+    width: 100%;
+    max-width: 297px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .main-column{
     padding :10px 15px;
     left-margin:20px;
@@ -99,6 +119,7 @@ h5 {
      padding-bottom: 0;
  }
 .resume-item {
+    margin-left: 20px;
     padding: 0px 0px 20px 20px;
     border-left: 2px solid cornflowerblue;
     position: relative;
@@ -113,23 +134,20 @@ h5 {
 
 
  .rounded-background-label {
-     border-radius: 5px;
+     border-radius: 10px;
      background: cornflowerblue;
      color: white;
-     margin-top: 20px;
+     margin-top: 10px;
      padding: 10px 10px 10px 10px;
      display: inline-block;
  }
 
  .rounded-label {
-     border-radius: 5px;
+     border-radius: 10px;
      background: cornflowerblue;
      border-color: black;
-     padding: 10px;
      color: white;
-     margin-top: 20px;
-     padding-left: 15px;
-     padding-bottom: 10px;
-     padding-right: 10px;
+     margin-top: 10px;
+     padding: 10px 10px 10px 15px;
      display: inline-block;
  }

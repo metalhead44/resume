@@ -1,179 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-print-css/css/bootstrap-print.min.css" media="print">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
-    <link href="https://printjs-4de6.kxcdn.com/print.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <style>
-        .one {
-            display: flex;
-            align-items: center;
-        }
-        .material-icons.orange600 {
-            color: #FB8C00;
-        }
-        .contacts {
-            background-color: cornflowerblue;
-        }
-    </style>
+    <link href="assets/fontawseome/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/fontawseome/css/brands.css" rel="stylesheet">
+    <link href="assets/fontawseome/css/solid.css" rel="stylesheet">
 </head>
 <body>
-    <div id="content" class="container pt-5">
-
-        <div class="row header">
-            <div class="col-sm-3"><img src="assets/img/profilepic.jpg" style="width:75%;height:auto"
-                                       class="float-start"></div>
-            <div class="col-sm-9">
-                <h1>Nitin Rohidas</h1>
-                <h4>Solution Architect</h4>
-                <p>Results-driven, Hands-On Solutions Architect with extensive 16+ years of experience in spearheading the Architecture & Design of critical systems supporting the business in Digital offerings of the bank. Recognized leader, applying high-impact technical solutions to major business objectives with capabilities that transcend IT operation boundaries. Demonstrated mastery in helping customers ﬁnd their way to the best solution and deliver amazing experiences and software using Modern Architecture patterns and strategy/platforms like Microservices, Docker, Cloud & Kubernetes.</P>
-            </div>
+<div id="content" class="container pt-5">
+    <div class="row header">
+        <div class="col-sm-3"><img src="assets/img/profilepic.jpg" style="width:75%;height:auto"
+                                   class="float-start"></div>
+        <div class="col-sm-9">
+            <h1>Nitin Rohidas</h1>
+            <h4>Solution Architect</h4>
+            <p>Results-driven, Hands-On Solutions Architect with extensive 16+ years of experience in spearheading the Architecture & Design of critical systems supporting the business in Digital offerings of the bank. Recognized leader, applying high-impact technical solutions to major business objectives with capabilities that transcend IT operation boundaries. Demonstrated mastery in helping customers ﬁnd their way to the best solution and deliver amazing experiences and software using Modern Architecture patterns and strategy/platforms like Microservices, Docker, Cloud & Kubernetes.</P>
         </div>
-        <div class="row contacts">
+    </div>
+    <div class="row contacts">
         <div class="col-sm-1"></div>
-        <div class="col-sm-3 one"><span style="color: blue;"><i class="fa fa-envelope fa-2x "> </i></span> &nbsp;
+        <div class="col-sm-3 one"><span style="color: blue;"><i class="fa-solid fa-envelope fa-2x "> </i></span> &nbsp;
             nitin.rohidas@gmail.com
         </div>
         <!--<div class="col-sm-4 one"><i class="material-icons oragne600">mobile</i>&nbsp; <p>8657995959</p></div>-->
-        <div class="col-sm-2 one"><span style="color: blue;"><i class="fa fa-mobile fa-3x "> </i></span>&nbsp;8657995959
+        <div class="col-sm-2 one"><span style="color: blue;"><i class="fa-solid fa-mobile-screen fa-2x"> </i></span>&nbsp;8657995959
         </div>
-        <div class="col-sm-2 one"><span style="color: black;"><i class="fa-regular fa-location-dot"></i></span>
+        <div class="col-sm-2 one"><span style="color: blue;"><i class="fa-solid fa-location-dot fa-2x"></i></span>
             &nbsp; Pune, India
         </div>
-        <div class="col-sm-4 one"><span style="color: blue;"><i class="fa fa-linkedin fa-2x "> </i></span> &nbsp;
+        <div class="col-sm-4 one"><span style="color: blue;"><i class="fa-brands fa-linkedin fa-2x"> </i></span> &nbsp;
             linkedin.com/in/nitin-rohidas-00408bb
         </div>
     </div>
-        <div class="row main">
-          <!--  <div class="col-sm-1 blank"></div>-->
-            <div class="col-sm-6 main-column">
-                <h3 class="resume-title">WORK EXPERIENCE</h3>
-                <div class="resume-item">
-                           <h4>Solution Architect</h4>
-                            <h5>Principal Financial Group</h5>
-                            <h8 class="year-italics">
-                                03/2016 – Present
-                            </h8>
-                            <p>The Principal Financial Group is a global ﬁnancial investment management and insurance company ( Fortune
-                                # 210) headquartered in Des Moines, Iowa.
-                            </p>
-                            <p class="italics">Achievements/Tasks</p>
-                            <ul>
-                                <li>Played an instrumental role in mentoring team of 5 Leads and upcoming architects and setting up
-                                    Architecture grooming discipline.
-                                </li>
-                                <li>Hands on with Preparing Solution Architecture documentations covering Conceptual and Logical
-                                    Architecture Diagrams, Application level design & UML documentations, Architecture Risk Assessments.
-                                </li>
-                                <li>Proposed multiple system re-engineering solutions to reduce the tech debt and inefficiencies in the
-                                    product and process and also implemented it.
-                                </li>
-                                <li>Solution a complete modernization effort by transforming an internal JSF based legacy app to spring
-                                    MVC and Dust application using API and Elastic Search.
-                                </li>
-                                <li>Leading efforts in transitioning enterprise architecture from Monolithic to Micro Service based
-                                    while adopting all better DevOps practices.
-                                </li>
-                                <li>Providing Solutions to team of 25 people (3 teams) on their daily business features. Focus on value
-                                    addition along with the usual business ask with Engineering mindset.
-                                </li>
-                                <li>Learning Cloud technologies like AWS – built project with trainees and demoed to senior Management
-                                    which was well received
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="resume-item">
-                            <h4>
-                                System Expert/Solution Lead
-                            </h4>
-                            <h5>Principal Financial Group</h5>
-                            <h8 class="year-italics">12/2012 – 03/2016</h8>
-                            <p>The Principal Financial Group is a Global Financial Investment Management and Insurance company (
-                                Fortune
-                                # 210) headquartered in Des Moines, Iowa.
-                            </p>
-                            <p class="italics">Achievements/Tasks</p>
-                            <ul>
-                                <li>Lead multiple teams while mentoring and helping them on all technical deliveries for different
-                                    Web Solutions.
-                                </li>
-                                <li>Delivered numerous web products while working on different web technologies ranging from legacy
-                                    XSLT, COBOL to JSF to new Spring Technology stacks.
-                                </li>
-                                <li>Designed and developed an application supporting a huge business process using IBPM and JSF.
-                                    Implemented a validation framework using JSR-303 Bean Validation framework.
-                                </li>
-                                <li>Lead a COE group while establishing a culture change with practices like "clean code" covering
-                                    coding standards, design patterns and performance best practices.
-                                </li>
-                            </ul>
-                            </p>
-                        </div>
-                <div class="resume-item">
-                            <h4>Software Engineer - Senior Software Engineer</h4>
-                            <h5>HSBC Global Technology Services, Pune </h5>
-                            <h8 class="year-italics">08/2005 – 12/2012
-                            </h8>
-                            <p>HSBC Holdings plc is a British multinational investment bank and financial services holding company. It
-                                was the 7th largest bank in the world by 2018, and the largest in Europe, with total assets of US$2.558
-                                trillion
-                            </p>
-                            <p class="italics">Achievements/Tasks</p>
-                            <ul>
-                                <li>Been an SME for the cards business (eChamps & eCafe applications) and lead multi country development
-                                    and deployments – Mexico and Hongkong
-                                </li>
-                                <li>Provided critical UAT support for Asia pacific deployments fixing critical bugs which were in the
-                                    products for years.
-                                </li>
-                                <li> Lead the team of 3 resources and also trained them in project technologies.</li>
-                                <li> Single handedly resolve all AVA findings by doing self research and applying innovative
-                                    solutions.
-                                </li>
-                            </ul>
-                        </div>
+    <div class="row main">
+        <!--  <div class="col-sm-1 blank"></div>-->
+        <div class="col-sm-6 main-column">
+            <h3 class="resume-title">WORK EXPERIENCE</h3>
+            <div class="resume-item">
+                <h4>Solution Architect</h4>
+                <h5>Principal Financial Group</h5>
+                <h8 class="year-italics">
+                    03/2016 – Present
+                </h8>
+                <p>The Principal Financial Group is a global ﬁnancial investment management and insurance company ( Fortune
+                    # 210) headquartered in Des Moines, Iowa.
+                </p>
+                <p class="italics">Achievements/Tasks</p>
+                <ul>
+                    <li>Played an instrumental role in mentoring team of 5 Leads and upcoming architects and setting up
+                        Architecture grooming discipline.
+                    </li>
+                    <li>Hands on with Preparing Solution Architecture documentations covering Conceptual and Logical
+                        Architecture Diagrams, Application level design & UML documentations, Architecture Risk Assessments.
+                    </li>
+                    <li>Proposed multiple system re-engineering solutions to reduce the tech debt and inefficiencies in the
+                        product and process and also implemented it.
+                    </li>
+                    <li>Solution a complete modernization effort by transforming an internal JSF based legacy app to spring
+                        MVC and Dust application using API and Elastic Search.
+                    </li>
+                    <li>Leading efforts in transitioning enterprise architecture from Monolithic to Micro Service based
+                        while adopting all better DevOps practices.
+                    </li>
+                    <li>Providing Solutions to team of 25 people (3 teams) on their daily business features. Focus on value
+                        addition along with the usual business ask with Engineering mindset.
+                    </li>
+                    <li>Learning Cloud technologies like AWS – built project with trainees and demoed to senior Management
+                        which was well received
+                    </li>
+                </ul>
+            </div>
+            <div class="resume-item">
+                <h4>
+                    System Expert/Solution Lead
+                </h4>
+                <h5>Principal Financial Group</h5>
+                <h8 class="year-italics">12/2012 – 03/2016</h8>
+                <p>The Principal Financial Group is a Global Financial Investment Management and Insurance company (
+                    Fortune
+                    # 210) headquartered in Des Moines, Iowa.
+                </p>
+                <p class="italics">Achievements/Tasks</p>
+                <ul>
+                    <li>Lead multiple teams while mentoring and helping them on all technical deliveries for different
+                        Web Solutions.
+                    </li>
+                    <li>Delivered numerous web products while working on different web technologies ranging from legacy
+                        XSLT, COBOL to JSF to new Spring Technology stacks.
+                    </li>
+                    <li>Designed and developed an application supporting a huge business process using IBPM and JSF.
+                        Implemented a validation framework using JSR-303 Bean Validation framework.
+                    </li>
+                    <li>Lead a COE group while establishing a culture change with practices like "clean code" covering
+                        coding standards, design patterns and performance best practices.
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <div class="resume-item">
+                <h4>Software Engineer - Senior Software Engineer</h4>
+                <h5>HSBC Global Technology Services, Pune </h5>
+                <h8 class="year-italics">08/2005 – 12/2012
+                </h8>
+                <p>HSBC Holdings plc is a British multinational investment bank and financial services holding company. It
+                    was the 7th largest bank in the world by 2018, and the largest in Europe, with total assets of US$2.558
+                    trillion
+                </p>
+                <p class="italics">Achievements/Tasks</p>
+                <ul>
+                    <li>Been an SME for the cards business (eChamps & eCafe applications) and lead multi country development
+                        and deployments – Mexico and Hongkong
+                    </li>
+                    <li>Provided critical UAT support for Asia pacific deployments fixing critical bugs which were in the
+                        products for years.
+                    </li>
+                    <li> Lead the team of 3 resources and also trained them in project technologies.</li>
+                    <li> Single handedly resolve all AVA findings by doing self research and applying innovative
+                        solutions.
+                    </li>
+                </ul>
+            </div>
 
-                <h3 class="resume-title">EDUCATION</h3>
-                <div class="resume-item">
+            <h3 class="resume-title">EDUCATION</h3>
+            <div class="resume-item">
 
-                            <h4>Bachelor of Engineering</h4>
-                            <h5>Vivekananda Education Society’s Institute of Technology – Information Technology </h5>
-                            <h8 class="year-italics">07/2001 – 06/2005 </h8>
-                            Score : <em>Distinction</em>
-                            <p>Mumbai, India</p>
-                </div>
-                <div class="resume-item">
-                            <h4>HSC , High School</h4>
-                            <h5>V.G Vaze College</h5>
-                            <h8 class="year-italics">06/1999 – 03/2001 </h8>
-                            Score : <em>93 % ( PCM)</em>
-                            <p>Mumbai, India</p>
-                </div>
-                <div class="resume-item">
-                            <h4>SSC , Primary Schooling</h4>
-                            <h5>Vani Vidyalaya</h5>
-                            <h8 class="year-italics">06/1998 – 03/1999 </h8>
-                            Score : <em>  80%  </em>
-                            <p> Mumbai, India</p>
-                            </h8>
+                <h4>Bachelor of Engineering</h4>
+                <h5>Vivekananda Education Society’s Institute of Technology – Information Technology </h5>
+                <h8 class="year-italics">07/2001 – 06/2005 </h8>
+                Score : <em>Distinction</em>
+                <p>Mumbai, India</p>
+            </div>
+            <div class="resume-item">
+                <h4>HSC , High School</h4>
+                <h5>V.G Vaze College</h5>
+                <h8 class="year-italics">06/1999 – 03/2001 </h8>
+                Score : <em>93 % ( PCM)</em>
+                <p>Mumbai, India</p>
+            </div>
+            <div class="resume-item">
+                <h4>SSC , Primary Schooling</h4>
+                <h5>Vani Vidyalaya</h5>
+                <h8 class="year-italics">06/1998 – 03/1999 </h8>
+                Score : <em>  80%  </em>
+                <p> Mumbai, India</p>
+                </h8>
 
-                    </div>
-                </div>
-            <div class="col-sm-6 main-column">
-                <h3 class="resume-title">SKILLS</h3>
-                <div class="resume-item-simple">
+            </div>
+        </div>
+        <div class="col-sm-6 main-column">
+            <h3 class="resume-title">SKILLS</h3>
+            <div class="resume-item-simple">
                 <p>
                     <span class="rounded-background-label">GCP/GKE</span>
                     <span class="rounded-background-label">Kubernetes</span>
@@ -193,9 +175,9 @@
                     <span class="rounded-background-label">Design Thinking</span>
                     <span class="rounded-background-label">J2EE</span>
                 </p>
-                </div>
-                <h3 class="resume-title">OVERSEAS ASSIGNMENTS</h3>
-                <div class="resume-item-simple">
+            </div>
+            <h3 class="resume-title">OVERSEAS ASSIGNMENTS</h3>
+            <div class="resume-item-simple">
                 <ul>
                     <li>
                         <h6>Dubai – (2006) - Developer</h6>
@@ -208,10 +190,10 @@
                     </li>
                 </ul>
 
-                </div>
+            </div>
 
-                <h3 class="resume-title">PROFESSIONAL ACHIEVEMENTS</h3>
-                <div class="resume-item-simple">
+            <h3 class="resume-title">PROFESSIONAL ACHIEVEMENTS</h3>
+            <div class="resume-item-simple">
                 <p>
                 <ul>
                     <li>
@@ -234,140 +216,82 @@
                     </li>
                 </ul>
                 </p>
-                </div>
-
-                    <h3 class="resume-title">ORGANIZATIONS</h3>
-                <div class="resume-item-simple">
-                    <p>
-                    <h4>HSBC Technology Services</h4>
-                    <h8 class="year-italics">Aug 2005 - Dec 2012</h8>
-                    <h4>Principal Financial Group</h4>
-                    <h8 class="year-italics">Jan 2013 - May 2020</h8>
-                    <h4>HSBC Technology Services </h4>
-                    <h8 class="year-italics">June 2020 - present</h8>
-                    </p>
-                </div>
-
-                    <h3 class="resume-title">INTERESTS</h3>
-                <div class="resume-item-simple">
-                    <p>
-                        <span class="rounded-label">J2EE</span>
-                        <span class="rounded-label">Spring technology Stack</span>
-                        <span class="rounded-label">Design Smells & Code Quality</span>
-                        <span class="rounded-label">Design Thinking</span>
-                        <span class="rounded-label">Cloud Computing</span>
-                    </p>
-                </div>
-
-
-                    <h3 class="resume-title">CONFERENCES & TRAININGS</h3>
-                <div class="resume-item">
-                            <h4>Google Cloud Professional Architect</h4>
-                            <h8 class="year-italics">November 2021</h8>
-                            <p><em>Udemy</em></p>
-                </div>
-                <div class="resume-item">
-                            <h4>Google Kubernetes Engine</h4>
-                            <h8 class="year-italics">August 2020</h8>
-                            <p><em>Udemy</em></p>
-                </div>
-                        <div class="resume-item">
-                            <h4>Conclave - Micro services</h4>
-                            <h8 class="year-italics">November 2019</h8>
-                            <p><em>NASSCOM</em></p>
-                            </div>
-                        <div class="resume-item">
-                            <h4>Conference: Handling Data of organization</h4>
-                            <h8 class="year-italics">November 2020</h8>
-                            <p><em>NASSCOM</em></p>
-                        </div>
-                       <div class="resume-item">
-                            <h4>Makers Lab: AI Chabots</h4>
-                            <h8 class="year-italics">November 2018</h8>
-                            <p><em>TECHMAHINDRA</em></p>
-                       </div>
-                <div class="resume-item">
-                            <h4>Design Thinking Workshop</h4>
-                            <h8 class="year-italics">May 2018</h8>
-                            <p><em>External Training</em></p>
-                        </div>
-                    </p>
-
-                <h3 class="resume-title">SOFT SKILLS</h3>
-                <div class="resume-item-simple">
-                    <span class="rounded-background-label">Mentoring</span>
-                    <span class="rounded-background-label">Decision Making</span>
-                    <span class="rounded-background-label">Networking</span>
-                    <span class="rounded-background-label">problem Solving</span>
-                    <span class="rounded-background-label">Critical Thinking</span>
-                    <span class="rounded-background-label">Elastic Search</span>
-                    <span class="rounded-background-label">Innovation Mindset</span>
-                    <span class="rounded-background-label">Empathy</span>
-                    <span class="rounded-background-label">Negotiations</span>
-                    <span class="rounded-background-label">Self-Motivated</span>
-                </div>
             </div>
-           <!-- <div class="col-sm-1 blank">
-            </div>-->
+
+            <h3 class="resume-title">ORGANIZATIONS</h3>
+            <div class="resume-item-simple">
+                <p>
+                <h4>HSBC Technology Services</h4>
+                <h8 class="year-italics">Aug 2005 - Dec 2012</h8>
+                <h4>Principal Financial Group</h4>
+                <h8 class="year-italics">Jan 2013 - May 2020</h8>
+                <h4>HSBC Technology Services </h4>
+                <h8 class="year-italics">June 2020 - present</h8>
+                </p>
+            </div>
+
+            <h3 class="resume-title">INTERESTS</h3>
+            <div class="resume-item-simple">
+                <p>
+                    <span class="rounded-label">J2EE</span>
+                    <span class="rounded-label">Spring technology Stack</span>
+                    <span class="rounded-label">Design Smells & Code Quality</span>
+                    <span class="rounded-label">Design Thinking</span>
+                    <span class="rounded-label">Cloud Computing</span>
+                </p>
+            </div>
+
+
+            <h3 class="resume-title">CONFERENCES & TRAININGS</h3>
+            <div class="resume-item">
+                <h4>Google Cloud Professional Architect</h4>
+                <h8 class="year-italics">November 2021</h8>
+                <p><em>Udemy</em></p>
+            </div>
+            <div class="resume-item">
+                <h4>Google Kubernetes Engine</h4>
+                <h8 class="year-italics">August 2020</h8>
+                <p><em>Udemy</em></p>
+            </div>
+            <div class="resume-item">
+                <h4>Conclave - Micro services</h4>
+                <h8 class="year-italics">November 2019</h8>
+                <p><em>NASSCOM</em></p>
+            </div>
+            <div class="resume-item">
+                <h4>Conference: Handling Data of organization</h4>
+                <h8 class="year-italics">November 2020</h8>
+                <p><em>NASSCOM</em></p>
+            </div>
+            <div class="resume-item">
+                <h4>Makers Lab: AI Chabots</h4>
+                <h8 class="year-italics">November 2018</h8>
+                <p><em>TECHMAHINDRA</em></p>
+            </div>
+            <div class="resume-item">
+                <h4>Design Thinking Workshop</h4>
+                <h8 class="year-italics">May 2018</h8>
+                <p><em>External Training</em></p>
+            </div>
+            </p>
+
+            <h3 class="resume-title">SOFT SKILLS</h3>
+            <div class="resume-item-simple">
+                <span class="rounded-background-label">Mentoring</span>
+                <span class="rounded-background-label">Decision Making</span>
+                <span class="rounded-background-label">Networking</span>
+                <span class="rounded-background-label">problem Solving</span>
+                <span class="rounded-background-label">Critical Thinking</span>
+                <span class="rounded-background-label">Elastic Search</span>
+                <span class="rounded-background-label">Innovation Mindset</span>
+                <span class="rounded-background-label">Empathy</span>
+                <span class="rounded-background-label">Negotiations</span>
+                <span class="rounded-background-label">Self-Motivated</span>
+            </div>
         </div>
+        <!-- <div class="col-sm-1 blank">
+         </div>-->
     </div>
-    <input type='button' id='but_screenshot' value='Take screenshot' onclick='screenshot();'><br/>
-<!--script>
-   	function screenshot(){
-
-		var HTML_Width = $(".container").width();
-		var HTML_Height = $(".container").height();
-		var top_left_margin = 15;
-		var PDF_Width = HTML_Width+(top_left_margin*2);
-		var PDF_Height = (PDF_Width*1.5)+(top_left_margin*2);
-		var canvas_image_width = HTML_Width;
-		var canvas_image_height = HTML_Height;
-
-		var totalPDFPages = Math.ceil(HTML_Height/PDF_Height)-1;
-        console.log("total pages"+"  "+totalPDFPages);
-
-		html2canvas(document.getElementById('content'),{allowTaint:true,foreignObjectRendering: true}).then(function(canvas) {
-			canvas.getContext('2d');
-
-			console.log(canvas.height+"  "+canvas.width);
-
-
-			var imgData = canvas.toDataURL("image/jpeg", 1.0);
-			var pdf = new jspdf.jsPDF('p', 'pt',  [PDF_Width, PDF_Height]);
-		    pdf.addImage(imgData, 'JPG', top_left_margin, top_left_margin,canvas_image_width,canvas_image_height);
-
-
-			/*for (var i = 1; i <= totalPDFPages; i++) {
-				pdf.addPage(PDF_Width, PDF_Height);
-				pdf.addImage(imgData, 'JPG', top_left_margin, -(PDF_Height*i)+(top_left_margin*4),canvas_image_width,canvas_image_height);
-			}*/
-
-		    pdf.save("HTML-Document.pdf");
-        });
-	};
-</script>-->
-
-    <!-- Script -->
-    <script type='text/javascript'>
-        function screenshot(){
-
-            var HTML_Width = $(".container").width();
-            var HTML_Height = $(".container").height();
-            var top_left_margin = 15;
-            var PDF_Width = HTML_Width+(top_left_margin*2);
-            var PDF_Height = (PDF_Width*1.5)+(top_left_margin*2);
-            var canvas_image_width = HTML_Width;
-            var canvas_image_height = HTML_Height;
-
-            html2canvas(document.body,{allowTaint:true,foreignObjectRendering: true,useCORS:true}).then(function(canvas) {
-                document.body.appendChild(canvas);
-                var img = canvas.toDataURL("image/jpeg", 1.0);
-                var doc = new jspdf.jsPDF('p', 'pt',  [PDF_Width, canvas_image_height]);
-                doc.addImage(img, 'JPEG', 0, 0, PDF_Width, canvas_image_height);
-                doc.save('sample-file.pdf');
-
-            });
-        }
-    </script>
+</div>
 </body>
 </html>
